@@ -1,0 +1,44 @@
+name: Krucraftcommands
+version: ${project.version}
+main: ga.krutonium.krucraftcommands.Krucraftcommands
+api-version: 1.16
+prefix: KruCraftCommands
+authors: [ Krutonium ]
+description: A mod that adds Crafting Commands
+website: krutonium.ga
+commands:
+  craft:
+    description: Opens the crafting menu
+    usage: /<command>
+    permission: krucraftcommands.craftingmenu
+    permission-message: You don't have permission for this.
+  stonecutter:
+    description: Opens a Stonecutter
+    usage: /<command>
+    permission: krucraftcommands.stonecutter
+    permission-message: You don't have permission for this.
+  enchant:
+    description: Opens an Enchanter
+    usage: /<command>
+    permission: krucraftcommands.enchant
+    permission-message: You don't have permission for this.
+  anvil:
+    description: Opens an Anvil
+    usage: /<command>
+    permission: krucraftcommands.anvil
+    permission-message: You don't have permission for this.
+  grindstone:
+    description: Opens a Grindstone
+    usage: /<command>
+    permission: krutcraftcommands.grindstone
+    permission-message: You don't have permission for this.
+  loom:
+    description: Opens a Loom
+    usage: /<command>
+    permission: krucraftcommands.loom
+    permission-message: You don't have permission for this.
+  cartography:
+    description: Opens a Cartographers Table
+    usage: /<command>
+    permission: krucraftcommands.cartographer
+    permission-message: You don't have permission for this.
